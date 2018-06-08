@@ -62,9 +62,9 @@ export default {
         handleSubmit () {
             this.$refs.loginForm.validate((valid) => {
                 if (valid) {
-                    api.Login(this.form).then(res=>{
+                    api.Login(this.form).then(res => {
                         this.loading = false;
-                        if(res.success){
+                        if (res.success) {
                             Cookies.set('user', this.form.userName);
                             Cookies.set('password', this.form.password);
                             this.$store.commit('setAvator', avator);
@@ -76,7 +76,7 @@ export default {
                             this.$router.push({
                                 name: 'home_index'
                             });
-                        }else{
+                        } else {
                             this.$Message.error(res.msg);
                         }
                     });

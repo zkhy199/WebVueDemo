@@ -27,6 +27,7 @@
     "iview": "^2.8.0",
     "iview-area": "^1.5.16",
     "js-cookie": "^2.2.0",
+    "loglevel": "^1.6.1",
     "rasterizehtml": "^1.2.4",
     "simplemde": "^1.11.2",
     "sortablejs": "^1.7.0",
@@ -55,6 +56,7 @@
     "css-hot-loader": "^1.3.5",
     "css-loader": "^0.28.8",
     "ejs-loader": "^0.3.0",
+    "es6-promise": "^4.2.4",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-html": "^4.0.1",
@@ -80,7 +82,7 @@
     "vue-style-loader": "^3.0.3",
     "vue-template-compiler": "^2.5.13",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.6.1",
+    "webpack-dev-server": "^2.6.0",
     "webpack-merge": "^4.1.1",
     "webpack-uglify-parallel": "^0.1.4"
   }
